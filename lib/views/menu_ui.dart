@@ -29,10 +29,10 @@ class _MenuUiState extends State<MenuUi> {
 
   List<String> shoplocation = [
     'https://www.google.co.th/maps/@14.8569619,102.3210407,11.67z?hl=th&entry=ttu&g_ep=EgoyMDI1MDIxMC4wIKXMDSoASAFQAw%3D%3D'
-        'https://www.google.co.th/maps/@17.2842041,103.8802103,5z?hl=th&entry=ttu&g_ep=EgoyMDI1MDIxMC4wIKXMDSoASAFQAw%3D%3D'
-        'https://www.google.co.th/maps/@18.3170581,99.3986862,17z?hl=th&entry=ttu&g_ep=EgoyMDI1MDIxMC4wIKXMDSoASAFQAw%3D%3D'
-        'https://www.google.co.th/maps/@20.2649781,101.0088483,11z?hl=th&entry=ttu&g_ep=EgoyMDI1MDIxMC4wIKXMDSoASAFQAw%3D%3D'
-        'https://www.google.co.th/maps/@17.5759827,103.6138031,9.75z?hl=th&entry=ttu&g_ep=EgoyMDI1MDIxMC4wIKXMDSoASAFQAw%3D%3D'
+    'https://www.google.co.th/maps/@17.2842041,103.8802103,5z?hl=th&entry=ttu&g_ep=EgoyMDI1MDIxMC4wIKXMDSoASAFQAw%3D%3D'
+    'https://www.google.co.th/maps/@18.3170581,99.3986862,17z?hl=th&entry=ttu&g_ep=EgoyMDI1MDIxMC4wIKXMDSoASAFQAw%3D%3D'
+    'https://www.google.co.th/maps/@20.2649781,101.0088483,11z?hl=th&entry=ttu&g_ep=EgoyMDI1MDIxMC4wIKXMDSoASAFQAw%3D%3D'
+    'https://www.google.co.th/maps/@17.5759827,103.6138031,9.75z?hl=th&entry=ttu&g_ep=EgoyMDI1MDIxMC4wIKXMDSoASAFQAw%3D%3D'
   ];
 
   Future<void> _launchInBrowser(Uri url) async {
